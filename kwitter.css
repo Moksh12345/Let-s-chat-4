@@ -1,0 +1,101 @@
+body {
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+}
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+}
+
+.username_title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+input {
+    font-family: 'Oswald', sans-serif;
+    color: #ADEFD1FF;
+    font-size: 20px;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+#login {
+    font-family: 'Oswald', sans-serif;
+    color: #ADEFD1FF;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.137);
+    /* Animation */
+    transition: transform .5s;
+}
+
+#login:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.header {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 45px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.header img {
+    width: 80px;
+    margin-left: -15px;
+}
+
+#logout {
+    font-size: 20px;
+    float: right;
+    margin-top: 20px;
+}
+
+#greeting {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#message {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40;
+    text-align: center;
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    border: 0px;
+}
+
+.input_div_message_page {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: #00203FFF;
+}
+
+.input_div_message_page label {
+	color: #ADEFD1FF;
+}
+
+.input_div_message_page #msg {
+	width: 80%;
+}
+
+.input_div_message_page button {
+	margin-top: 15px;
+	width: 50%;
+}
+
+.message_h4 {
+	padding-left: 5px;
+	color: grey;
+}

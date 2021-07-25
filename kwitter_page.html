@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Let's Chat Message page</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="kwitter.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+        <center>
+            <h1 class="header">
+                Let's Chat
+            </h1>
+            <div style="text-align: left;margin-bottom: 70px;" id="output">
+            </div>
+        </center>
+    </div>
+
+    <center>
+        <div class="input_div_message_page">
+            <label style="font-size: 35px; font-family: 'Yanone Kaffeesatz', sans-serif;">Send:</label>
+            <input type="text" placeholder="Enter text here" class="form-control" id="message" style="font-size: 20px;">
+            <button class="btn btn-success" onclick="send()"
+                style="background-color: #ADEFD1FF; color: #00203FFF; font-size: 18px;">Send</button>
+        </div>
+    </center>
+
+    <script src="kwitter_page.js"></script>
+    <script src="kwitter_room.js"></script>
+</body>
+
+</html>
